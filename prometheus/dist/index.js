@@ -13,8 +13,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
-const requestCount_1 = require("./monitoring/requestCount");
 const prom_client_1 = __importDefault(require("prom-client"));
+const gauge_1 = require("./monitoring/gauge");
 const app = (0, express_1.default)();
 //@ts-ignore
 // function middleware(req,res,next){
@@ -23,7 +23,7 @@ const app = (0, express_1.default)();
 //     const endTime = Date.now()
 //     console.log('it took', endTime - startTime,'ms')
 // }
-app.use(requestCount_1.requestCountMiddleware);
+app.use(gauge_1.activeCountMiddleware);
 app.get("/user", (req, res) => {
     res.json({
         name: 'deepanshu'

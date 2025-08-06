@@ -1,6 +1,7 @@
 import express from 'express'
 import { requestCountMiddleware } from './monitoring/requestCount'
 import client from "prom-client";
+import { activeCountMiddleware } from './monitoring/gauge';
 const app = express()
 
 //@ts-ignore
@@ -12,7 +13,9 @@ const app = express()
 //     console.log('it took', endTime - startTime,'ms')
 // }
 
-app.use(requestCountMiddleware)
+app.use(activeCountMiddleware
+    
+)
 
 app.get("/user",(req,res)=>{
 

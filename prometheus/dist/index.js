@@ -14,7 +14,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const prom_client_1 = __importDefault(require("prom-client"));
-const gauge_1 = require("./monitoring/gauge");
+const histogram_1 = require("./monitoring/histogram");
 const app = (0, express_1.default)();
 //@ts-ignore
 // function middleware(req,res,next){
@@ -23,7 +23,7 @@ const app = (0, express_1.default)();
 //     const endTime = Date.now()
 //     console.log('it took', endTime - startTime,'ms')
 // }
-app.use(gauge_1.activeCountMiddleware);
+app.use(histogram_1.requestCount);
 app.get("/user", (req, res) => {
     res.json({
         name: 'deepanshu'

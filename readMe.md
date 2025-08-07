@@ -33,3 +33,12 @@ When there are logging/monitoring systems in place, you can put up alerts to be 
     CPU usage goes above a certain point
 
     Error count goes up
+
+## Prometheus Dashboards
+
+<img width="1920" height="1080" alt="Screenshot (293)" src="https://github.com/user-attachments/assets/dce8f6d3-5302-4d61-aac5-b92bbd531944" />
+
+<img width="1920" height="1080" alt="Screenshot (294)" src="https://github.com/user-attachments/assets/41017664-27b8-4cc3-8c3e-af1d6d95e84f" />
+
+
+

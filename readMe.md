@@ -34,11 +34,23 @@ When there are logging/monitoring systems in place, you can put up alerts to be 
 
     Error count goes up
 
+
+## Prometheus Logging 
+
+<img width="1752" height="892" alt="Screenshot 2025-08-07 154419" src="https://github.com/user-attachments/assets/d06a75e5-c6a9-42d6-aea3-10401b5f30a7" />
+
 ## Prometheus Dashboards
 
 <img width="1920" height="1080" alt="Screenshot (293)" src="https://github.com/user-attachments/assets/dce8f6d3-5302-4d61-aac5-b92bbd531944" />
 
 <img width="1920" height="1080" alt="Screenshot (294)" src="https://github.com/user-attachments/assets/41017664-27b8-4cc3-8c3e-af1d6d95e84f" />
 
+## Grafana Dashboards
+
+<img width="1920" height="1080" alt="Screenshot (295)" src="https://github.com/user-attachments/assets/6bc18240-2ba7-4c90-b3e0-5a8a1f2188bb" />
+
+<img width="1920" height="1080" alt="Screenshot (296)" src="https://github.com/user-attachments/assets/65109322-8911-4e88-bba3-31b0dfb4ad0c" />
+
+<img width="1920" height="1080" alt="Screenshot (297)" src="https://github.com/user-attachments/assets/d3fca932-28ae-42b3-a563-35b96fa89bf9" />
 
 

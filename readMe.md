@@ -35,6 +35,26 @@ When there are logging/monitoring systems in place, you can put up alerts to be 
     Error count goes up
 
 
+## Types of metrics in Prometheus
+
+## Counter
+
+    A counter is a cumulative metric that only increases.
+
+    Example: Counting the number of HTTP requests
+
+## Gauge
+
+    A gauge is a metric that can go up and down. It can be used to measure values that fluctuate, such as the current number of active users or the current memory usage.
+
+    Example: Measuring the current memory usage
+
+## Histogram
+
+    A histogram samples observations (usually things like request durations or response sizes) and counts them in configurable buckets. It also provides a sum of all observed values.
+
+    Example: Measuring the duration of HTTP requests
+
 ## Prometheus Logging 
 
 <img width="1752" height="892" alt="Screenshot 2025-08-07 154419" src="https://github.com/user-attachments/assets/d06a75e5-c6a9-42d6-aea3-10401b5f30a7" />
